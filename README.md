@@ -21,4 +21,5 @@ Initially, I attempted to work with Factory IO, using the tank available in the 
 
 The results were good because is an alternative for control functions projects when there is no dynamic model to build the control (that is very common in industrial applications). In addition i don´t take in count a dead band as the Tia Portal' PID has, but is very easy to implement because is just select a range were the control function will not take action. Is like a little tolerance error that can be permissible for the process.   
 
-**I also create data blocks with the analog inputs and outputs for the project that you can connect with the addresses that manege the physical inputs and outputs of the PLC.**
+### Additional information
+**I also create data blocks with the analog inputs and outputs for the project that you can connect with the addresses that manege the physical inputs and outputs of the PLC. This is a good practice to avoid bad addressing :)**
