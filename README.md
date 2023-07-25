@@ -9,7 +9,7 @@ The project consists in test control function with a filling tank system using T
 Initially, I attempted to work with Factory IO, using the tank available in the simulation software. However, I encountered an issue when reading the analog signal. The signal appeared to blink instead of providing real-time measurements. If you have a solution to avoid this error, please let me know—I would greatly appreciate it! :)
 
 
-## Segments explained
+## Segments of main block explained
 
 - First segment: This code establishes the connection with Factory IO. Information about the tank used in the project can be found [here](https://docs.factoryio.com/manual/parts/stations/#tank). Additionally, to learn how to set up the connection between TIA PORTAL and Factory IO, refer to this [link](https://docs.factoryio.com/tutorials/siemens/setting-up-s7-plcsim-v13/#setting-up-s7-plcsim-with-tia-portal). Ensure that you correctly write the addresses for the analog and digital inputs and outputs. [Here](https://community.factoryio.com/t/siemens-inputs-not-working/34) is an explanation of one common error due to bad addressing in the PLC driver inside Factory IO.
 
